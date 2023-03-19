@@ -1,13 +1,15 @@
 # Unimenu Blender Add-on
 
 A Blender add-on to easily make custom menus in Blender, with [UniMenu](https://github.com/hannesdelbeke/unimenu)<br>
+Simply modify the config in the configs folder.
 
 ![demo screenshot](menu_screen.jpg)
 
 - Run any python command from the menu. Launch tools, add-ons & scripts.
 - Customize the menu with icons, tooltips, separators & sub-menus.
 
-This add-on is a self contained environment to quickly get started with UniMenu, so you don't have to setup your own environment in a startup file. You might want to do so in a studio pipeline though.
+This add-on is a self contained environment to quickly get started with UniMenu, so you don't have to setup your own environment in a startup file.<br>
+In a studio pipeline, you might want to use the python module instead, with your own startup script.
 
 ## Installation
 1. Download the addon from this repo, and install this add-on in Blender
@@ -16,3 +18,6 @@ This add-on is a self contained environment to quickly get started with UniMenu,
 The add-on will show install instructions when enabled. Guiding you with installing the [UniMenu](https://github.com/hannesdelbeke/unimenu) dependency.
 ![demo screenshot](addon_install_screen.jpg)
 
+## Current Bugs
+- on disable, the menu is removed. But on re-enable, 2 menus appear.
+- handling more than 1 config in the configs folder is not yet working well
