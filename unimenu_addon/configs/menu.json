@@ -1,0 +1,41 @@
+{
+   "label":"My Menu",
+   "tooltip":"This is a tooltip",
+   "items":[
+      {
+         "label":"Print Hello",
+         "command":"print(\"Hello\")",
+         "tooltip":"Prints Hello",
+         "icon": "CONSOLE"
+      },
+      {
+         "separator":""
+      },
+      {
+         "label":"open UniMenu Wiki",
+         "command":"import webbrowser; webbrowser.open('https://github.com/hannesdelbeke/unimenu/wiki/Blender')",
+         "tooltip":"go to the wiki for more info, e.g. icon setup",
+         "icon": "URL"
+      },
+      {
+         "label":"my sub menu",
+         "items":[
+            {
+               "label":" Hello",
+               "command":"print(\" Hello\")",
+               "tooltip":"Prints Hello",
+               "icon":"QUESTION"
+            },
+            {
+               "separator":""
+            },
+            {
+               "label":" World",
+               "command":"print(\" World\")",
+               "tooltip":"Prints World",
+               "icon":"MODIFIER"
+            }
+         ]
+      }
+   ]
+}
