@@ -9,7 +9,7 @@
          "icon": "CONSOLE"
       },
       {
-         "separator":""
+         "separator":"---"
       },
       {
          "label":"open UniMenu Wiki",
