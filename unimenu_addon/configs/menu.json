@@ -27,7 +27,7 @@
                "icon":"QUESTION"
             },
             {
-               "separator":""
+               "separator":"---"
             },
             {
                "label":" World",
