@@ -12,7 +12,7 @@ Example of a menu config:
    "items":[
       {
          "label":"Print Hello",
-         "command":"print(\"Hello\")"
+         "command":"print('Hello')"
       }
    ]
 }
