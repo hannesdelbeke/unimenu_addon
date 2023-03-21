@@ -1,7 +1,7 @@
 # Unimenu Blender Add-on
 
 A Blender add-on to easily make custom menus in Blender, with [UniMenu](https://github.com/hannesdelbeke/unimenu)<br>
-Simply modify the config in the configs folder.
+Simply modify the [config](https://github.com/hannesdelbeke/unimenu_addon/blob/main/unimenu_addon/configs/menu.json) in the `unimenu_addon/configs` folder.
 
 ![demo screenshot](menu_screen.jpg)
 
