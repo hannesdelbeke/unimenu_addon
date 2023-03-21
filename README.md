@@ -5,6 +5,18 @@ Simply modify the [config](https://github.com/hannesdelbeke/unimenu_addon/blob/m
 
 ![demo screenshot](menu_screen.jpg)
 
+Example of a menu config:
+```json
+{
+   "label":"My Menu",
+   "items":[
+      {
+         "label":"Print Hello",
+         "command":"print(\"Hello\")"
+      }
+   ]
+}
+```
 - Run any python command from the menu. Launch tools, add-ons & scripts.
 - Customize the menu with icons, tooltips, separators & sub-menus.
 
