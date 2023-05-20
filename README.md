@@ -3,7 +3,7 @@
 A Blender add-on to easily make custom menus in Blender, with [UniMenu](https://github.com/hannesdelbeke/unimenu)<br>
 Just modify the [config](https://github.com/hannesdelbeke/unimenu_addon/blob/main/unimenu_addon/configs/menu.json) in the `unimenu_addon/configs` folder.
 
-![demo screenshot](menu_screen.jpg)
+![demo screenshot](docs/menu_screen.jpg)
 
 Example of a menu config:
 ```json
@@ -29,7 +29,7 @@ In a studio pipeline, you might want to use the python module instead, with your
 2. Install the unimenu python module dependency:
 
 The add-on will show install instructions when enabled. Guiding you with installing the [UniMenu](https://github.com/hannesdelbeke/unimenu) dependency.
-![demo screenshot](addon_install_screen.jpg)
+![demo screenshot](docs/addon_install_screen.jpg)
 
 ## Current Bugs
 - on disable, the menu is removed. But on re-enable, 2 menus appear.
